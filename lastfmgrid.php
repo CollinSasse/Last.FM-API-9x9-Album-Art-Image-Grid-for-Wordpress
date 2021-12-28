@@ -1,19 +1,21 @@
 <?php
 /**
- * @package Last.FM API 9x9 Album Art Image Grid for Wordpress
+ * @package Last.FM API 3x3 Album Art Image Grid for Wordpress
  * @version 1.0.0
  */
  
 /*
-Plugin Name: Last.FM API 9x9 Album Art Image Grid for Wordpress
-Plugin URI: https://collinsasse.com/wordpress-plugins/last-fm-api-9x9-album-art-image-grid/
-Description: Create a 9x9 grid of album art from your last.fm recent artists.
+Plugin Name: Last.FM API 3x3 Album Art Image Grid for Wordpress
+Plugin URI: https://collinsasse.com/wordpress-plugins/last-fm-3x3-album-art-image-grid-for-wordpress/
+Description: Create a 3x3 grid of album art from your last.fm recent artists.
 Author: Collin Sasse
-Version: 1.0.0
-Author URI: https://collinsasse.com/wordpress-plugins/last-fm-api-9x9-album-art-image-grid/
+Version: 1.0.1
+Requires at least: 5.2
+Update URI: https://collinsasse.com/wordpress-plugins/last-fm-3x3-album-art-image-grid-for-wordpress/
+Author URI: https://collinsasse.com/wordpress-plugins/last-fm-3x3-album-art-image-grid-for-wordpress/
 */
 
-function cs_lastfm_9x9_grid( $atts = [], $content = null ) { 
+function cs_lastfm_3x3_grid( $atts = [], $content = null ) { 
 $atts = array_change_key_case( (array) $atts, CASE_LOWER );
 
 $LastFM_Username = $atts['username'];
@@ -70,4 +72,4 @@ return "<br><img src='$image0'/><img src='$image1'/><img src='$image2'/><br><img
 
 }
  
-add_shortcode('show_lastfm_9x9_grid', 'cs_lastfm_9x9_grid');
+add_shortcode('show_lastfm_3x3_grid', 'cs_lastfm_3x3_grid');
