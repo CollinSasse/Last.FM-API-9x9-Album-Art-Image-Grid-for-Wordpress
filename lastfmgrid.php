@@ -1,13 +1,13 @@
 <?php
 /**
- * @package Last.FM API 3x3 Album Art Image Grid for Wordpress
- * @version 1.0.0
+ * @package Last.fm 3×3 Album Art Image Grid for WordPress
+ * @version 1.0.1
  */
  
 /*
-Plugin Name: Last.FM API 3x3 Album Art Image Grid for Wordpress
+Plugin Name: Last.fm 3×3 Album Art Image Grid for WordPress
 Plugin URI: https://collinsasse.com/wordpress-plugins/last-fm-3x3-album-art-image-grid-for-wordpress/
-Description: Create a 3x3 grid of album art from your last.fm recent artists.
+Description: Create a 3x3 grid of album art from your Last.fm recent artists.
 Author: Collin Sasse
 Version: 1.0.1
 Requires at least: 5.2
