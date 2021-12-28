@@ -1,10 +1,1 @@
-# Last.FM-API-9x9-Album-Art-Image-Grid-for-Wordpress
-
-
-
-# Plugin Name: Last.FM API 9x9 Album Art Image Grid for Wordpress
-# Plugin URI: https://collinsasse.com/wordpress-plugins/last-fm-api-9x9-album-art-image-grid/
-# Description: Create a 9x9 grid of album art from your last.fm recent artists.
-# Author: Collin Sasse
-# Version: 1.0.0
-# Author URI: https://collinsasse.com/wordpress-plugins/last-fm-api-9x9-album-art-image-grid/
+This is a WordPress plugin that generates a 3x3 grid of your top Last.fm artists/albums. Please visit my blog to learn more: Last.fm 3×3 Album Art Image Grid for WordPress
